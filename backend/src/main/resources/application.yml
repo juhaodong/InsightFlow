@@ -1,0 +1,15 @@
+spring.application:
+    name: insightflow
+
+server:
+    port: 8080
+    servlet.context-path: /insightflow
+
+springdoc:
+    swagger-ui:
+        enable: true
+        path: swagger-ui.html
+    api-docs:
+        enable: true
+
+spring.ai.openai.api-key: fillme
